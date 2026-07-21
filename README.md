@@ -1,10 +1,17 @@
 # Breast Cancer Diagnosis Predictor
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Model-orange?logo=scikitlearn&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 An interactive Streamlit web app that predicts whether a breast tumor is **malignant** or **benign** from 30 diagnostic cell-nuclei measurements, using a Logistic Regression model trained on the classic Breast Cancer Wisconsin (Diagnostic) dataset.
 
 Built as part of the NTI Machine Learning Internship, Session 12 — following on from a first pass on the Iris dataset, this project applies the same deployment workflow to a real, medically-grounded binary classification problem.
 
 **Live app:** _add your Streamlit Community Cloud link here once deployed_
+
+![App demo](assets/demo.gif)
 
 ---
 
@@ -31,11 +38,15 @@ Breast_Cancer_model_NTI_S12/
 │   └── __init__.py
 ├── .streamlit/
 │   └── config.toml             # custom dark theme for the app
-├── requirements.txt            # Python dependencies
+├── assets/
+│   └── demo.gif                # short screen recording of the app in use
+├── requirements.txt             # Python dependencies
 ├── .gitignore
 ├── LICENSE
 └── README.md
 ```
+
+**About the `assets` folder:** this holds non-code files used purely for documentation — right now just `demo.gif`, a short screen recording showing the app being used (exploring the data, then entering values and getting a prediction). It has no effect on how the app runs; it exists only so this README can display a live preview instead of a wall of text. If you add more images later (like a screenshot or a diagram), they'd go here too.
 
 ---
 
