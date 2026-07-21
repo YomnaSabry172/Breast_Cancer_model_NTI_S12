@@ -92,7 +92,7 @@ st.divider()
 
 st.header("📊 Exploring the data")
 
-st.subheader("Step 1 — how common is each diagnosis?")
+st.subheader("1. How common is each diagnosis?")
 fig, ax = plt.subplots(figsize=FIGSIZE, dpi=DPI)
 sns.countplot(data=df, x="diagnosis_label", hue="diagnosis_label",
               palette="Set2", legend=False, ax=ax)
@@ -105,7 +105,7 @@ st.caption(
     "malignant — worth keeping in mind when judging accuracy alone."
 )
 
-st.subheader("Step 2 — explore a feature by diagnosis")
+st.subheader("2. Explore a feature by diagnosis")
 selected_feature = st.selectbox("Choose a feature to explore:", feature_names, index=0)
 
 fig, ax = plt.subplots(figsize=FIGSIZE, dpi=DPI)
@@ -116,7 +116,7 @@ with left_col:
     st.pyplot(fig, use_container_width=False)
 st.caption(f"Explore how {selected_feature} differs between malignant and benign cases.")
 
-st.subheader("Step 3 — a closer look at one strong feature")
+st.subheader("3. A closer look at one strong feature")
 fig, ax = plt.subplots(figsize=FIGSIZE, dpi=DPI)
 sns.boxplot(data=df, x="diagnosis_label", y="mean radius", hue="diagnosis_label",
             palette="Set2", legend=False, ax=ax)
