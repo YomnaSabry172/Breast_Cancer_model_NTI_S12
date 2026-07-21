@@ -9,7 +9,7 @@ An interactive Streamlit web app that predicts whether a breast tumor is **malig
 
 Built as part of the NTI Machine Learning Internship, Session 12 — following on from a first pass on the Iris dataset, this project applies the same deployment workflow to a real, medically-grounded binary classification problem.
 
-**Live app:** _add your Streamlit Community Cloud link here once deployed_
+**Live app:** [_add your Streamlit Community Cloud link here once deployed_](https://breastcancermodelnti12-yomnasabry.streamlit.app/)
 
 ![App demo](assets/demo.gif)
 
