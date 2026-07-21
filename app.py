@@ -46,7 +46,7 @@ def load_data():
 
 df, feature_names = load_data()
 
-# ---------------- INTRODUCTION ----------------
+
 st.title("🦀 Breast Cancer Diagnosis Predictor")
 st.markdown(
     """
@@ -63,7 +63,7 @@ st.markdown(
 )
 st.divider()
 
-# ---------------- ABOUT THE DATASET ----------------
+
 st.header("🔬 About this dataset")
 st.markdown(
     """
@@ -89,7 +89,7 @@ if st.session_state.show_data:
 
 st.divider()
 
-# ---------------- EXPLORING THE DATA ----------------
+
 st.header("📊 Exploring the data")
 
 st.subheader("Step 1 — how common is each diagnosis?")
@@ -145,7 +145,6 @@ st.caption(
 
 st.divider()
 
-# ---------------- TRY IT YOURSELF ----------------
 st.header("🧪Try it yourself")
 st.write(
     "Adjust the measurements below — they default to the dataset's average "
