@@ -7,7 +7,7 @@
 
 An interactive Streamlit web app that predicts whether a breast tumor is **malignant** or **benign** from 30 diagnostic cell-nuclei measurements, using a Logistic Regression model trained on the classic Breast Cancer Wisconsin (Diagnostic) dataset.
 
-Built as part of the NTI Machine Learning Internship, Session 12 — following on from a first pass on the Iris dataset, this project applies the same deployment workflow to a real, medically-grounded binary classification problem.
+Built as part of the NTI Machine Learning Internship, Session 12, following on from a first pass on the Iris dataset, this project applies the same deployment workflow to a real, medically-grounded binary classification problem.
 
  [_**Live app link on Streamlit community**_](https://breastcancermodelnti12-yomnasabry.streamlit.app/)
 
@@ -19,7 +19,7 @@ Built as part of the NTI Machine Learning Internship, Session 12 — following o
 
 - Loads the Breast Cancer Wisconsin dataset directly from scikit-learn (569 patients, 30 features each)
 - Trains a Logistic Regression classifier to distinguish malignant from benign tumors
-- Explores the dataset through an interactive, step-by-step walkthrough — target balance, feature distributions, a boxplot comparison, and a correlation heatmap
+- Explores the dataset through an interactive, step-by-step walkthrough, target balance, feature distributions, a boxplot comparison, and a correlation heatmap
 - Lets a user enter their own 30 measurements and get a live prediction
 - Demonstrates a realistic train-once / predict-many deployment pattern, rather than retraining a model on every app launch
 
@@ -46,7 +46,7 @@ Breast_Cancer_model_NTI_S12/
 └── README.md
 ```
 
-**About the `assets` folder:** this holds non-code files used purely for documentation — right now just `demo.gif`, a short screen recording showing the app being used (exploring the data, then entering values and getting a prediction). It has no effect on how the app runs; it exists only so this README can display a live preview instead of a wall of text. If you add more images later (like a screenshot or a diagram), they'd go here too.
+**About the `assets` folder:** this holds non-code files used purely for documentation; right now just `demo.gif`, a short screen recording showing the app being used (exploring the data, then entering values and getting a prediction). It has no effect on how the app runs; it exists only so this README can display a live preview instead of a wall of text. If you add more images later (like a screenshot or a diagram), they'd go here too.
 
 ---
 
